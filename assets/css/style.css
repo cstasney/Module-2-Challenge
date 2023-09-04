@@ -1,0 +1,64 @@
+
+.header {
+    color: gold;
+    background-color: black;
+    position: relative;
+}
+
+h1 {
+    border: 5px;
+    margin: 10px;
+    background-color: black;
+    display: inline
+}
+
+ul {
+    width: 500px;
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+    justify-content: space-around
+}
+
+li {
+    color: gold;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.navbar {
+   text-align: right;
+}
+
+a:link {
+    color: gold;
+}
+a:visited {
+    color: gold;
+}
+
+.banner {
+    padding: 10px;
+    max-width: 1500px;
+}
+
+.div {
+    position: relative;
+}
+#myportfolio {
+    position: absolute;
+    right: 0px;
+    justify-content: end;
+    margin-right: 0px;
+}
+.aboutme {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .banner {
+        width: 75%;
+    }
+}
