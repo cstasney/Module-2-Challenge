@@ -6,17 +6,17 @@
     background-color: black;
     border-radius: 8px;
     padding: 10px;
+    margin: 25px;
 }
 
 h1 {
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    height: 25px;
 }
 
 nav {
-
-    border-radius: 8px;
     height: 75px;
 }
 
@@ -36,7 +36,7 @@ li {
 }
 
 nav a {
-    color: gold;
+    background-color: black;
 }
 
 nav a:hover {
@@ -65,8 +65,8 @@ nav a:active {
 
 .myportfolio {
     position: absolute;
-    right: 25px;
-    bottom: 15px;
+    left: 25px;
+    bottom: 150px;
     font-weight: bold;
     font-size: 40px;
     color: aliceblue;
@@ -76,40 +76,40 @@ nav a:active {
 
 main {
     display: flex;
-    flex-direction: ;
 }
 
-.row1  {
+.aside1 {
+    display: flex;
     background-color: black;
     color: gold;
     border-radius: 8px;
     margin: 25px;
+    height: 125px;
+    padding: 50px;
+    width: 15%;
 }
 
 #me {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     flex: 1;
-    padding: 10px;
-
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 #selfie {
+    display: flex;
     width: 200px;
     height: 150px;
-    padding: 20px;
-    border-radius: 45%;
+    padding-left: 10px;
 }
 
 .story {
-    background-color: black;
-    color: gold;
     padding: 20px;
-    padding-top: 50px;
     border-radius: 8px;
-    width: 100%;
-    margin: 25px;
-    text-align: center;
+    width: 85%;
+    display: flex;
+    align-items: center;
 }
 
 .desc {
@@ -117,17 +117,32 @@ main {
     color: gold;
     padding: 50px;
     border-radius: 8px;
-    text-indent: 50px;
     font-size: 20px;
     font-weight: 350;
+    display: flex;
+    justify-content: center;
+    height: 125px;
 }
 
 .contactinfo {
+    display: flex;
+    justify-content: space-around;
     background-color: black;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 25px;
+    width: 85%;
+}
+
+#contact {
+    display: flex;
+    background-color: black;
+    color: gold;
+    height: 125px;
     border-radius: 8px;
 }
 
-a:link {
+a:any-link {
     color: gold;
     text-decoration: none;
 }
