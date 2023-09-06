@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
     color: gold;
     background-color: black;
@@ -66,50 +67,47 @@ nav a:active {
 .myportfolio {
     position: absolute;
     left: 25px;
-    bottom: 150px;
+    bottom: 185px;
     font-weight: bold;
     font-size: 40px;
     color: aliceblue;
-    text-shadow: black;
-
 }
 
 main {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.aside1 {
+section {
     display: flex;
     background-color: black;
     color: gold;
-    border-radius: 8px;
-    margin: 25px;
-    height: 125px;
-    padding: 50px;
-    width: 15%;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    border: 20px;
 }
 
-#me {
+.me {
     display: flex;
-    justify-content: end;
-    flex: 1;
     padding-right: 20px;
-    padding-top: 10px;
 }
 
-#selfie {
+section img {
     display: flex;
-    width: 200px;
-    height: 150px;
-    padding-left: 10px;
+    flex-wrap: wrap;
+    max-width: 250px;
+    border-radius: 35%;
+    padding: 15px;
 }
+
 
 .story {
     padding: 20px;
-    border-radius: 8px;
-    width: 85%;
-    display: flex;
-    align-items: center;
+    border-radius: 20px;
+    max-width: 1400px;
 }
 
 .desc {
@@ -120,26 +118,40 @@ main {
     font-size: 20px;
     font-weight: 350;
     display: flex;
-    justify-content: center;
-    height: 125px;
+    flex: 1 0 0;
+}
+
+.main-header {
+    background-color: black;
+    color: gold;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
 }
 
 .contactinfo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: black;
     border-radius: 8px;
     font-size: 20px;
     margin: 25px;
     width: 85%;
+    height: 75px;
+    align-items: center;
 }
 
-#contact {
+.workdone {
+    padding: 50px; 
+    max-width: ;
+}
+
+.projects {
     display: flex;
-    background-color: black;
-    color: gold;
-    height: 125px;
-    border-radius: 8px;
+    justify-content: space-between;
 }
 
 a:any-link {
@@ -148,6 +160,7 @@ a:any-link {
 }
 
 @media screen and (max-width: 768px) {
+    body,
     h1,
     nav,
     ul,
