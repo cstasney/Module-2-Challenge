@@ -6,19 +6,16 @@
     color: gold;
     background-color: black;
     border-radius: 8px;
-    padding: 10px;
-    margin: 25px;
 }
 
 h1 {
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    height: 25px;
 }
 
 nav {
-    height: 75px;
+    border-radius: 6px;
 }
 
 ul {
@@ -29,11 +26,8 @@ ul {
 }
 
 li {
-    padding-bottom: 10px;
     font-weight: bold;
     font-size: 20px;
-    padding: 25px;
-    margin-right: 20px;
 }
 
 nav a {
@@ -51,74 +45,31 @@ nav a:active {
 }
 
 #background {
-    padding-top: 5px;
-    width: 100%;
-}
-
-.banner {
-    position: relative;
-    height: 95%;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 8px;
+    border: none;
 }
 
 .myportfolio {
-    position: absolute;
-    left: 25px;
-    bottom: 185px;
     font-weight: bold;
     font-size: 40px;
     color: aliceblue;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 section {
-    display: flex;
     background-color: black;
     color: gold;
-    border-radius: 20px;
     font-size: 20px;
-    padding: 20px;
-    align-items: center;
-    border: 20px;
 }
 
 .me {
-    display: flex;
-    padding-right: 20px;
-}
-
-section img {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 250px;
-    border-radius: 35%;
-    padding: 15px;
-}
-
-
-.story {
-    padding: 20px;
-    border-radius: 20px;
-    max-width: 1400px;
+    background-color: black;
 }
 
 .desc {
     background-color: black;
     color: gold;
-    padding: 50px;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 350;
-    display: flex;
-    flex: 1 0 0;
 }
 
 .main-header {
@@ -126,40 +77,27 @@ section img {
     color: gold;
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-}
-
 .contactinfo {
-    display: flex;
-    justify-content: space-evenly;
     background-color: black;
     border-radius: 8px;
     font-size: 20px;
-    margin: 25px;
-    width: 85%;
-    height: 75px;
-    align-items: center;
 }
 
 .workdone {
-    padding: 50px; 
-    max-width: ;
+    font-size: 20px;
 }
 
-.projects {
-    display: flex;
-    justify-content: space-between;
-}
 
 a:any-link {
     color: gold;
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+#selfie {
+    max-width: 10%;
+}
+
+/* @media screen and (max-width: 768px) {
     body,
     h1,
     nav,
@@ -170,4 +108,4 @@ a:any-link {
         justify-content: center;
         align-items: center;
     }
-}
+} */
